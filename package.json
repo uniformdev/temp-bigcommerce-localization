@@ -1,0 +1,27 @@
+{
+  "name": "@uniformdev/bigcommerce-enhancer-sandbox",
+  "version": "2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "next:build": "next build",
+    "start": "next start",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "@uniformdev/canvas": "16.2.0",
+    "@uniformdev/canvas-bigcommerce-gql": "16.2.1-alpha.8",
+    "@uniformdev/canvas-react": "16.2.0",
+    "@uniformdev/cli": "16.2.0",
+    "graphql": "16.5.0",
+    "graphql-request": "4.3.0",
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "typescript": "^4.7.4"
+  }
+}
