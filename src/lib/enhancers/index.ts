@@ -1,5 +1,5 @@
 import { EnhancerBuilder } from "@uniformdev/canvas";
-import { enhancerDefinition as bigcommerceEnhancerDef } from "./bigcommerce/bigcommerceEnhancer";
+import { enhancerDefinition as bigcommerceEnhancerDef } from "./bigCommerceEnhancer";
 
 const enhancerDefs = [bigcommerceEnhancerDef];
 

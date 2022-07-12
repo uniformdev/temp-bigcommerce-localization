@@ -3,8 +3,8 @@ import {
   BIGCOMMERCE_PARAMETER_TYPES,
   BigCommerceGqlClient,
 } from '@uniformdev/canvas-bigcommerce-gql';
-import { EnhancerDefinition } from '../types';
-import { validateAndGetEnvVars } from '../utils';
+import { EnhancerDefinition } from './types';
+import { validateAndGetEnvVars } from './utils';
 
 export const enhancerDefinition: EnhancerDefinition = {
   name: 'BigCommerce',
@@ -72,7 +72,7 @@ function getEnhancer() {
         'condition',
       ],
       // ability to pass meta fields you desire to extract
-      // metafields_namespace: 'language',
+      metafields_namespace: 'es',
     },
   });
 }
